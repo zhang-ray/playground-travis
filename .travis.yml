@@ -4,4 +4,4 @@ language: cpp
 sudo: required
 
 script:
-  - mdfind -name man
+  - ./scripts/mac.build.sh
