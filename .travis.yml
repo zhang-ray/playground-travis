@@ -4,7 +4,7 @@ sudo: required
 
 script:
   - echo "233" 
-  - lsb_release
+  - lsb_release -a
   
   
   
