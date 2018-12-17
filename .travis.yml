@@ -1,7 +1,10 @@
-os:
-  - osx
+os: xenial
 language: cpp
 sudo: required
 
 script:
-  - chmod +x ./scripts/mac.build.sh  &&  ./scripts/mac.build.sh
+  - echo "233" 
+  - lsb_release
+  
+  
+  
